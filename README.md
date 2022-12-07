@@ -4,7 +4,7 @@ I created a simple command-line application to store and retrieve passwords.
 
 The passwords are stored in [AWS Secrets Manager](https://aws.amazon.com/secrets-manager/). 
 
-Accessing your AWS account (with your Access Key Id and Secret Key) will be considered sufficient authorisation to retrieve the passwords.
+Accessing your AWS account (with your Access Key Id and Secret Key) is considered sufficient authorisation to retrieve the passwords.
 
 The application allows you to:
  - store a user id and password as a secret in `secretsmanager`
@@ -12,7 +12,7 @@ The application allows you to:
  - retrieve a secret - the resulting user id and password will not be printed out but should be stored in a file.
  - delete a secret.
 
-The basic workflow should look like this:
+The basic workflow looks like this:
 ```bash
 awsume sandbox # or whatever means you use to authenticate
 [Sandbox]
