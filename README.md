@@ -1,6 +1,6 @@
 # AWS-Powered Password Manager CLI Application
 
-I created a simple command-line application to store and retrieve passwords. 
+I created a simple command-line application to store and retrieve passwords using Python Boto3 and AWS Secrets Manager.
 
 The passwords are stored in [AWS Secrets Manager](https://aws.amazon.com/secrets-manager/). 
 
@@ -55,7 +55,7 @@ UserId: bidenj
 Password: Pa55word
 ```
 
- - The code is thoroughly unit-tested. I used the `moto` library to mock `secretsmanager`.
+ - The code is thoroughly unit-tested. I used the `moto` library to mock `AWS secretsmanager`.
 
 
 
