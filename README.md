@@ -1,4 +1,4 @@
-# AWS-Powered Password Manager
+# AWS-Powered Password Manager CLI Application
 
 I created a simple command-line application to store and retrieve passwords. 
 
